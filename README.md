@@ -1,14 +1,14 @@
-# springboot-user-analytics-api
+-> springboot-user-analytics-api
 A high-performance analytics API built using Spring Boot and MySQL.  Designed to track user events, store analytics data, and return insights  with optimized response time (~25% improvement after refactoring).
 
-# User Analytics API (Spring Boot)
+-> User Analytics API (Spring Boot)
 
 A lightweight Spring Boot REST API for managing users and tracking analytics data.  
 This project demonstrates clean architecture, modular REST controllers, DTO usage, and MySQL persistence.
 
 ====================================================================================================================================================================
 
-##  Features
+->  Features
 - CRUD operations for Users  
 - Fetch user analytics data  
 - Layered architecture (Controller → Service → Repository)  
@@ -19,7 +19,7 @@ This project demonstrates clean architecture, modular REST controllers, DTO usag
 
 ====================================================================================================================================================================
 
-##  Tech Stack
+->  Tech Stack
 - Java 17  
 - Spring Boot  
 - Spring Web  
@@ -29,7 +29,7 @@ This project demonstrates clean architecture, modular REST controllers, DTO usag
 
 ====================================================================================================================================================================
 
-##  Project Structure
+->  Project Structure
 
 src/
 ├── main/
@@ -46,7 +46,7 @@ src/
 
 ====================================================================================================================================================================
 
-##  Setup Instructions
+->  Setup Instructions
 
 1️⃣ Clone the repository
 bash
@@ -75,7 +75,7 @@ CREATE TABLE analytics (
 Configure application.properties
 spring.datasource.url=jdbc:mysql://localhost:3306/user_analytics
 spring.datasource.username=root
-spring.datasource.password=your_password
+spring.datasource.password=example
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 
@@ -83,5 +83,23 @@ spring.jpa.show-sql=true
  
 3️⃣ Using Maven
 mvn clean install
+
 mvn spring-boot:run
+
+====================================================================================================================================================================
+-> API DOCUMENTATION
+
+-> REQUEST
+{
+  "name": "Shreya",
+  "email": "shreya@example.com"
+}
+
+->RESPONSE
+
+{
+  "id": 1,
+  "name": "Shreya",
+  "email": "shreya@example.com"
+}
 
