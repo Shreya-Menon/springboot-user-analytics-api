@@ -80,6 +80,7 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 
  Run the Application
+ 
 3️⃣ Using Maven
 mvn clean install
 mvn spring-boot:run
