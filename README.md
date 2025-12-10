@@ -6,7 +6,7 @@ A high-performance analytics API built using Spring Boot and MySQL.  Designed to
 A lightweight Spring Boot REST API for managing users and tracking analytics data.  
 This project demonstrates clean architecture, modular REST controllers, DTO usage, and MySQL persistence.
 
-=================================================================================
+===========================================================================
 
 ->  Features
 - CRUD operations for Users  
@@ -17,7 +17,7 @@ This project demonstrates clean architecture, modular REST controllers, DTO usag
 - DTOs for request/response  
 - Project built with Maven + Spring Boot 3  
 
-=================================================================================
+===========================================================================
 
 ->  Tech Stack
 - Java 17  
@@ -27,7 +27,7 @@ This project demonstrates clean architecture, modular REST controllers, DTO usag
 - MySQL  
 - Maven  
 
-=================================================================================
+===========================================================================
 
 ->  Project Structure
 
@@ -44,7 +44,7 @@ src/
 │ └── schema.sql
 └── test/
 
-=================================================================================
+===========================================================================
 
 ->  Setup Instructions
 
@@ -86,7 +86,7 @@ mvn clean install
 
 mvn spring-boot:run
 
-=================================================================================
+===========================================================================
 -> API DOCUMENTATION
 
 -> REQUEST
